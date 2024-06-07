@@ -1,0 +1,17 @@
+model:
+  layers: 4
+  num_K: 9
+  hidden_channel: 8
+  factor1: 3
+  factor2: 3
+  crop_size: 192
+  clip: 0.01
+  head: 4
+training:
+  epoch: 1600
+  batch_size: 30
+  warmup: 50
+  start_lr: 0.0001
+  ref_lr: 0.0006
+  final_lr: 5.0e-06
+  device: cuda 
